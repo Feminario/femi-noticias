@@ -1,0 +1,24 @@
+{
+  "name": "femi-noticias",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "semanal": "tsx --env-file=.env.local scripts/correr-semanal.mts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "next": "^15.5.7",
+    "react": "^19.1.2",
+    "react-dom": "^19.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.0"
+  }
+}
